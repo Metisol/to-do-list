@@ -51,7 +51,7 @@ export default function Login() {
         </div>
 
         <form onSubmit={handleLogin} className="space-y-4">
-          {/* Username Input */}
+          
           <div className="flex items-center border rounded px-3 py-2">
             <FaUser className="text-gray-400 mr-2" />
             <input
@@ -64,7 +64,7 @@ export default function Login() {
             />
           </div>
 
-          {/* Password Input */}
+          
           <div className="flex items-center border rounded px-3 py-2">
             <FaLock className="text-gray-400 mr-2" />
             <input
@@ -84,7 +84,7 @@ export default function Login() {
             </button>
           </div>
 
-          {/* Register & Remember Me */}
+          
           <div className="flex items-center justify-between text-sm text-gray-500">
             <label className="flex items-center space-x-2">
               <input type="checkbox" />
@@ -99,10 +99,10 @@ export default function Login() {
             </button>
           </div>
 
-          {/* Error Message */}
+          
           {error && <p className="text-red-500 text-sm">{error}</p>}
 
-          {/* Submit Button */}
+          
           <button
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
