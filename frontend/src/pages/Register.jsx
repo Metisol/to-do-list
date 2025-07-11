@@ -19,7 +19,7 @@ export default function Register() {
         username,
         password,
       });
-      alert("✅ Registered! Now login.");
+      alert("Registered! Now login.");
       navigate("/login");
     } catch (err) {
       setError("❌ Username already taken or server error.");
